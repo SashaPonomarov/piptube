@@ -1,0 +1,23 @@
+{
+  "name": "piptubeElectron",
+  "version": "1.0.0",
+  "description": "watch youtube as picture-in-picture",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder -w --ia32"
+  },
+  "author": " <Sasha Ponomarov>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.8.2",
+    "electron-builder": "^20.0.5"
+  },
+  "build": {
+    "appId": "org.publicvoids.piptube",
+    "win": {
+      "target": [ "portable" ]
+    }
+  }
+}
