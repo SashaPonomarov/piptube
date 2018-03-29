@@ -11,13 +11,15 @@
   "author": " <Sasha Ponomarov>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "1.8.2",
+    "electron": "^1.8.4",
     "electron-builder": "^20.0.5"
   },
   "build": {
     "appId": "org.publicvoids.piptube",
     "win": {
-      "target": [ "portable" ]
+      "target": [
+        "portable"
+      ]
     }
   }
 }
